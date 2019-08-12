@@ -1,23 +1,21 @@
 <template>
   <div class="container">
-   
+
   </div>
 </template>
 
 <script>
   export default {
+    name: 'app',
     components: {},
     props: {},
     data() {
       return {}
     },
-    methods: {},
-    created() {
-      
-    }
+    methods: {}
   }
 </script>
 
 <style scoped>
- 
+
 </style>
