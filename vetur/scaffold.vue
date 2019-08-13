@@ -6,16 +6,29 @@
 
 <script>
   export default {
-    name: 'app',
-    components: {},
-    props: {},
-    data() {
-      return {}
+    name: 'App',
+    components: {
+
     },
-    methods: {}
+    props: {
+
+    },
+    data() {
+      return {
+
+      }
+    },
+    created() {
+
+    },
+    methods: {
+
+    }
   }
 </script>
 
 <style scoped>
-
+  .container {
+    
+  }
 </style>

@@ -7,11 +7,34 @@
 <script lang="ts">
   import Vue from 'vue'
 
-  export default Vue.extend({
+  interface Data {
 
+  }
+
+  export default Vue.extend({
+    name: 'App',
+    components: {
+
+    },
+    data(): Data {
+      return {
+
+      }
+    },
+    computed: {
+
+    },
+    created() {
+
+    },
+    methods: {
+
+    }
   })
 </script>
 
 <style scoped>
-
+  .container {
+    
+  }
 </style>
