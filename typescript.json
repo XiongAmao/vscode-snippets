@@ -1,0 +1,42 @@
+{
+  "vue-ts-class-vpd-scaffold": {
+    "prefix": ["vue-ts-class-vpd-scaffold"],
+    "body": [
+      "import Vue, { CreateElement, VNode } from 'vue'",
+      "import { Component, Prop, Emit } from 'vue-property-decorator'",
+      "",
+      "@Component",
+      "export class App extends Vue {",
+      "  private render(h: CreateElement): VNode {",
+      "    return h(",
+      "      'div',",
+      "       {},",
+      "       'app'",
+      "    )",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Vue ts scaffold"
+  },
+  "vue-ts-class-scaffold": {
+    "prefix": ["vue-ts-class-scaffold"],
+    "body": [
+      "import Vue, { CreateElement, VNode } from 'vue'",
+      "import Component from 'vue-class-component'",
+      "",
+      "@Component",
+      "export class App extends Vue {",
+      "  private render(h: CreateElement): VNode {",
+      "    return h(",
+      "      'div',",
+      "       {},",
+      "       'app'",
+      "    )",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Vue ts scaffold"
+  }
+}
