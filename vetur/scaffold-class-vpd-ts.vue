@@ -8,7 +8,7 @@
   import { Component, Prop, Vue, Emit } from 'vue-property-decorator'
 
   @Component
-  export default class App extends Vue {
+  export default class ${1:App} extends Vue {
 
   }
 </script>

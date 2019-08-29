@@ -12,7 +12,7 @@
   }
 
   export default Vue.extend({
-    name: 'App',
+    name: '${1:App}',
     components: {
 
     },
