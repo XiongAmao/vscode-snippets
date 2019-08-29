@@ -3,7 +3,7 @@
   import Component from 'vue-class-component'
 
   @Component
-  export default class App extends Vue {
+  export default class ${1:App} extends Vue {
 
   }
 </script>
