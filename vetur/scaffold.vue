@@ -1,5 +1,5 @@
 <template>
-  <div class="${1:App}-container">
+  <div class="${1:App}">
 
   </div>
 </template>
@@ -28,7 +28,7 @@
 </script>
 
 <style scoped>
-  .${1:App}-container {
+  .${1:App} {
 
   }
 </style>
