@@ -26,5 +26,5 @@
 </script>
 
 <style scoped lang="stylus">
-  .${1:App}
+  .${1:App} {}
 </style>
