@@ -3,7 +3,7 @@
 </template>
 
 <script>
- export default {
+  export default {
     name: '${1:App}',
     components: {
 
