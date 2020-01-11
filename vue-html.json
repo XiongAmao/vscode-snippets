@@ -2,7 +2,7 @@
   "Vue v-for": {
     "prefix": "vfor",
     "body": [
-      "v-for=\"${2:item} in ${2:item}s\" :key=\"${2:item}.id\"",
+      "v-for=\"(${2:item}, idx) in ${2:item}s\" :key=\"idx\"",
     ],
     "description": "vfor statement"
   }
