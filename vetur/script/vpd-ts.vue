@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Component, Prop, Vue, Emit } from 'vue-property-decorator'
+  import { Component, Vue } from 'vue-property-decorator'
 
   @Component
   export default class ${1:App} extends Vue {
