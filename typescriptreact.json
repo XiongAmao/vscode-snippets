@@ -34,5 +34,21 @@
       ""
     ],
     "description": "Vue tsx scaffold"
+  },
+  "taro-react-fc-init": {
+    "prefix": ["taro-react-fc-init"],
+    "body": [
+      "import React from 'react'",
+      "import { View } from '@tarojs/components'",
+      "",
+      "import styles from './index.module.scss'",
+      "",
+      "interface Props {}",
+      "",
+      "export const ${1:App}: React.FC<Props> = () => {",
+      "  return <View className={styles.container}></View>",
+      "}"
+    ],
+    "description": "Vue tsx scaffold"
   }
 }
