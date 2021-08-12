@@ -45,10 +45,11 @@
       "",
       "interface Props {}",
       "",
-      "export const ${1:App}: React.FC<Props> = () => {",
+      "export const ${1:App}: React.FC<Props> = (props) => {",
+      "  const {} = props",
       "  return <View className={styles.container}></View>",
       "}"
     ],
-    "description": "Vue tsx scaffold"
+    "description": "taro react fc init"
   }
 }
