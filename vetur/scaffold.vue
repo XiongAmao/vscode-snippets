@@ -5,30 +5,30 @@
 </template>
 
 <script>
-  export default {
-    name: '${1:App}',
-    components: {
+export default {
+  name: '${1:App}',
+  components: {
 
-    },
-    props: {
+  },
+  props: {
 
-    },
-    data() {
-      return {
-
-      }
-    },
-    created() {
-
-    },
-    methods: {
+  },
+  data() {
+    return {
 
     }
+  },
+  created() {
+
+  },
+  methods: {
+
   }
+}
 </script>
 
 <style scoped>
-  .${1:App} {
+.${1:App} {
 
-  }
+}
 </style>
